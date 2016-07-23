@@ -1,0 +1,20 @@
+.form_enter{
+    background-color: #555555;
+}
+label{
+    color:white;
+}
+#login {
+    width: 200px;
+}
+
+#password{
+    width: 200px;
+}
+button.login-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px 10px 10px 10px;
+}
