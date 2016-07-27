@@ -6,7 +6,7 @@
  * Time: 19:38
  */
 ?>
-<link href="http://localhost/jarvis/css/style_form.css" rel="stylesheet">
+<link href="http://localhost/-j-a-r-v-i-s-/css/style_form.css" rel="stylesheet">
 <form method="post" action="" class="form_enter">
     <p>
         <label for="login">Логин:</label>
@@ -22,8 +22,8 @@
         <button type="submit" class="login-button">Войти</button>
     </p>
 </form>
-<script src="http://localhost/jarvis/js/jquery.js"></script>
-<script src="http://localhost/jarvis/js/ajax_form.js"></script>
-<script src="http://localhost/jarvis/js/jquery.validate.js"></script>
+<script src="http://localhost/-j-a-r-v-i-s-/js/jquery.js"></script>
+<script src="http://localhost/-j-a-r-v-i-s-/js/ajax_form.js"></script>
+<script src="http://localhost/-j-a-r-v-i-s-/js/jquery.validate.js"></script>
 
 
