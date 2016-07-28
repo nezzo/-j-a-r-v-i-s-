@@ -18,8 +18,8 @@ class Admin extends Controller{
         $pass = $_POST['pass'];
 
         
-        if(isset($login,$pass) and !empty($login) and !empty($pass)){
-            $this->form_enter($login,$pass);
+        if(isset($login)and isset($pass) and !empty($login) and !empty($pass)){
+            parent::enter_form($login,$pass);
             echo"111";
         }else{
             echo"Введите логин или пароль!!!";
