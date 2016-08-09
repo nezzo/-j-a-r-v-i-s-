@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Июл 29 2016 г., 01:58
+-- Время создания: Авг 09 2016 г., 04:42
 -- Версия сервера: 5.7.13-0ubuntu0.16.04.2
--- Версия PHP: 7.0.8-0ubuntu0.16.04.1
+-- Версия PHP: 7.0.8-0ubuntu0.16.04.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";

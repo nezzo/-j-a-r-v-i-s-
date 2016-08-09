@@ -1,4 +1,5 @@
 <?php
+require_once "../connect.php";
 
 /**
  * Created by PhpStorm.
@@ -6,21 +7,22 @@
  * Date: 22.07.16
  * Time: 19:39
  */
-#@TODO ошибка в условии проверки  пустые данные или нет надо найти в инете как правильно
-class Admin extends Controller{
+namespace controller;
 
-    function __construct(){
+class Admin extends core\Controller{
+    public $login;
+    public $pass;
+    
+    function __construct() {
         $this->form_data();
     }
-
+    
+    /*получаем данные с ява скрипта для авторизации*/
     function form_data(){
-        $login = $_POST['login'];
-        $pass = $_POST['pass'];
-
-        
-        if(isset($login)and isset($pass) and !empty($login) and !empty($pass)){
-            parent::enter_form($login,$pass);
-            echo"111";
+        $this->login = $_POST['login'];
+        $this->pass = $_POST['pass'];
+       if(isset($this->login)and isset($this->pass) and !empty($this->login) and !empty($this->pass)){
+           parent::enter_form($this->login,$this->pass);
         }else{
             echo"Введите логин или пароль!!!";
         }

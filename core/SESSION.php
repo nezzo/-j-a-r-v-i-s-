@@ -1,4 +1,6 @@
 <?php
+require_once "../connect.php";
+namespace core;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

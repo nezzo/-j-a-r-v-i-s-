@@ -1,5 +1,5 @@
 <?php
-
+require_once "../connect.php";
 /**
  * Created by PhpStorm.
  * User: nestor
@@ -7,15 +7,25 @@
  * Time: 17:41
  */
 
+namespace core;
+
 class Controller
 {
+    protected $login;
+    protected $pass;
+            
     function __construct(){
-      $this->enter_form();
+     $admin = new model\Admin();
+     $admin->select_admin($this->login,$this->pass);
+                
     }
     
+    /*Передаем данные в модель Админ*/
     function enter_form($login,$pass){
-
+        $this->login = $login;
+        $this->pass = $pass;
     }
+         
 }
 
 $controller = new Controller();
