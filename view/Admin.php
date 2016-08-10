@@ -1,12 +1,13 @@
 <?php
-require_once "../connect.php";
+ini_set('display_errors',1);
+error_reporting(E_ALL ^E_NOTICE);
 /**
  * Created by PhpStorm.
  * User: nestor
  * Date: 22.07.16
  * Time: 19:38
  */
-namespace view;
+
 ?>
 <link href="http://localhost/-j-a-r-v-i-s-/css/style_form.css" rel="stylesheet">
 <form method="post" action="" class="form_enter">

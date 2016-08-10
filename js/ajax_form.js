@@ -15,7 +15,7 @@ $(document).ready(function(){
                     pass: pass
                 },
                 success: function (data) {
-                    console.log(data);
+                   location.replace("view/AdminRoom.php");
                 },
                 error: function (xhr, str) {
                     alert("Возникла ошибка!");

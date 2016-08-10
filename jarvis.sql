@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Авг 09 2016 г., 04:42
+-- Время создания: Авг 10 2016 г., 04:48
 -- Версия сервера: 5.7.13-0ubuntu0.16.04.2
 -- Версия PHP: 7.0.8-0ubuntu0.16.04.2
 
@@ -37,7 +37,7 @@ CREATE TABLE `security` (
 --
 
 INSERT INTO `security` (`id`, `login`, `pass`) VALUES
-(1, 'admin', '1111111');
+(1, 'admin', 'MjBSKuiFUb8uQ');
 
 -- --------------------------------------------------------
 

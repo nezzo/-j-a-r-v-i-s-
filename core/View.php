@@ -1,6 +1,7 @@
 <?php
-require_once "../connect.php";
 namespace core;
+require_once 'connect.php';
+
  #TODO  надо придумать  как выводить данные  и передавать в контроллер с вида
 
 /**
@@ -11,7 +12,7 @@ namespace core;
  */
 class View
 {
-    public $controller;
+ 
     function __consturct(){
 
     }

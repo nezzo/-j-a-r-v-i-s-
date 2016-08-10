@@ -1,7 +1,9 @@
 <?php
+ini_set('display_errors',1);
+error_reporting(E_ALL ^E_NOTICE);
 #@TODO надо создать базу из записи блокнота
 
-    require_once('connect.php');
+    require_once('core/connect.php');
 ?>
 <html xmlns="http://www.w3.org/1999/html">
 <head>

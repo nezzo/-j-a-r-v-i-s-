@@ -1,6 +1,8 @@
 <?php
-require_once "../connect.php";
-namespace core;
+require_once 'connect.php';
+ini_set('display_errors',1);
+error_reporting(E_ALL ^E_NOTICE);
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -13,7 +15,9 @@ namespace core;
  *
  * @author nestor
  */
-#@ TODO главный класс сессии  для доступа в админку и еще всякие действия которые нужно хранить на стороне сервера
+/*Тут будут обрабатываться переменные сессии*/
 class SESSION {
-    //put your code here
+    
+    
 }
+$session = new SESSION();
